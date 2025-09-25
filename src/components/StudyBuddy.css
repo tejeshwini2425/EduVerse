@@ -1,0 +1,56 @@
+.buddy-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 220px;
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.buddy-animation {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle at 30% 30%, #ffcc00, #ff9900);
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.buddy-chat {
+  margin-top: 10px;
+}
+
+.chat-box {
+  max-height: 100px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 70%;
+  padding: 4px;
+}
+
+button {
+  width: 25%;
+  padding: 4px;
+  background: #ff9900;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #e68a00;
+}

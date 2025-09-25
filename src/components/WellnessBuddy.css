@@ -1,0 +1,27 @@
+.wellness-buddy {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.wellness-buddy.high {
+  background: rgba(255, 220, 220, 0.9);
+}
+
+.wellness-popup {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background: #6fcf97;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
